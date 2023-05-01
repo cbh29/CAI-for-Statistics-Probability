@@ -1,0 +1,219 @@
+body{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    color: #000000;
+    background-color: #F8F9FA;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    z-index: 300;
+}
+
+nav .btn-menu{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    float: left;
+}
+
+nav .btn-menu i{
+    font-size: 20px;
+    color: #464646;
+    cursor: pointer;
+}
+
+nav .btn-menu i:hover, nav .profile-container i:hover{
+    color: #000000;
+}
+
+nav .profile-container{
+    height: inherit;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    padding: 15px;
+}
+
+nav .profile-container i{
+    font-size: 18px;
+    cursor: pointer;
+    color: #464646;
+}
+
+.aside-shadow{
+    background-color: rgba(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s ease all;
+    z-index: 400;
+}
+
+aside{
+    position: fixed;
+    top: 0px;
+    left: -241px;
+    height: 100%;
+    width: 240px;
+    transition: .2s ease all;
+    background-color: #ffffff;
+    z-index: 500;
+}
+
+aside label{
+    color: #1F4AE0;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+aside .menu ul, aside .lesson ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 12px;
+}
+
+aside .menu li{
+    margin-bottom: 20px;
+}
+
+aside .menu li a, aside .lesson li a{
+    color: #686868;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+}
+
+aside .menu li a:hover, aside .lesson li a:hover{
+    color: #000000;
+}
+
+aside .menu li a i{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+aside .lesson li{
+    margin-bottom: 20px;
+}
+
+aside .lesson li a{
+    padding-left: 30px;
+}
+
+aside ul a.active{
+    color: #d37bce;
+}
+
+aside .lesson li a.disabled{
+    pointer-events: none;
+    cursor: default;
+}
+
+.profile{
+    background-color: #BAC0CA;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: -100%;
+    padding-top: 70px;
+    transition: .3s ease all;
+    z-index: 10;
+}
+
+.profile .inner-profile{
+    position: relative;
+    height: inherit;
+}
+
+.profile .inner-profile .img-container{
+    border: 1px solid #686868;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.profile .inner-profile button.cai-button{
+    background-color: #1F4AE0 !important;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.profile .inner-profile button:hover{
+    background-color: #4b6be0 !important;
+}
+
+.profile .certificate{
+    max-width: 330px;
+    margin: 30px auto;
+    margin-bottom: 0;
+    padding: 15px;
+    background: url(../img/cert-border.png);
+    background-size: 100% 100%;
+}
+
+.cert-paper{
+    padding-top: 20px;
+    width: 950px;
+    height: 563px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/cert-border.png);
+    background-size: 100% 100%;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    
+    nav{
+        padding: 0 30px;
+    }
+    
+    .profile{
+        width: 350px;
+    }
+}
+
+@media (min-width: 992px){
+
+    body{
+        margin-left: 241px;
+    }
+
+    nav{
+        padding-right: 60px;
+    }
+
+    nav .btn-menu{
+        display: none;
+    }
+
+    .aside-shadow{
+        opacity: 0 !important;
+        visibility: hidden !important;
+    }
+
+    aside{
+        left: 0px !important;
+        background-color: #F8F9FA;
+        border-right: 1px solid rgb(212, 212, 212);
+    }
+
+}

@@ -1,0 +1,120 @@
+body{
+    background-color: #281240;
+}
+
+nav{
+    background-color: #53396b;
+    height: 90px;
+    width: 100%;
+    padding-left: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav .logo-container{
+    height: inherit;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    height: inherit;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+nav ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color: #b4b4b4;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+}
+
+.typographs{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.typographs h1{
+    font-size: 32px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.typographs p{
+    margin-top: 20px;
+    color: #b4b4b4;
+    line-height: 28px;
+}
+
+@media (min-width: 992px){
+
+    nav{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .content{
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .typographs h1{
+        font-size: 50px;
+    }
+
+    .typographs p{
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    nav{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .content{
+        max-width: 1250px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin-top: 50px;
+        padding-right: 15px;
+    }
+
+    .content img{
+        width: 600px;
+        border-radius: 10px;
+    }
+
+    .typographs{
+        margin-top: 0px;
+        margin-right: 50px;
+    }
+
+    .typographs h1{
+        font-size: 55px;
+    }
+
+    .typographs p{
+        font-size: 18px;
+    }
+}

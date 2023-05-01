@@ -1,0 +1,24 @@
+/* 
+    font-weigh: 400;
+    font-weigh: 500;
+    font-weigh: 700;
+*/
+
+body{
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.cai-button{
+    width: 100%;
+    padding: 10px;
+    background-color: #d37bce;
+    color: #ffffff;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+}
+
+.cai-button:hover{
+    background-color: #a04c9d;
+}

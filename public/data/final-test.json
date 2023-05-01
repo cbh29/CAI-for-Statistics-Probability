@@ -1,0 +1,364 @@
+{
+    "I": {
+        "instruct": "IDENTIFICATION",
+        
+        "A": {
+            "instruct": "Identify the following statement if it is discrete or continuous.",
+            
+            "1": {
+                "question": "Number of minutes to board the plane"
+            },
+            "2": {
+                "question": "Distance between the mile stones on a road"
+            },
+            "3": {
+                "question": "Number of mile stones on a road"
+            },
+            "4": {
+                "question": "Average Daily Temperature"
+            },
+            "5": {
+                "question": "Number of diaper changes in a day"
+            }
+        },
+        "B":{
+            "instruct": "Identify the following.",
+            
+            "6": {
+                "question": "It is a measure of central tendency than balances the distribution and it is also known as average."
+            },
+            "7": {
+                "question": "It refers to a statistical measurement of the spread between numbers in a data set."
+            },
+            "8": {
+                "question": "It is the average deviation from the mean."
+            },
+            "9": {
+                "question": "It is symmetric and bell-shaped, like the normal distribution, but has heavier tails, meaning that it is more prone to producing values that fall far from its mean."
+            },
+            "10": {
+                "question": "An interval estimate and it is a range of values or intervals (with lower and upper limits) used to estimate the population parameter"
+            }
+        }
+    },
+    
+    "II":{
+        "instruct": "MULTIPLE CHOICE",
+        
+        "1":{
+            "question": "If two coins are tossed, which is NOT a possible value of the random variable for the number of tails",
+            "choices": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "2":{
+            "question": "Suppose three coins are tossed. Let Z be the random variable representing the number of heads that occur. Find the values of the random variable Z.",
+            "choices": [
+                "Z = 0, 1, 2",
+                "Z = 0, 1, 2, 3",
+                "Z = 1, 2, 3",
+                "Z = 1, 2, 3, 4"
+            ]
+        },
+        "3":{
+            "question": "Suppose there are four people to be tested in Covid-19. Let V be the random variable representing the number of infected that occur. Find the random variable V.",
+            "choices": [
+                "V = 0, 1, 2",
+                "V = 0, 1, 2, 3",
+                "V = 1, 2, 3",
+                "V = 0, 1, 2, 3, 4"
+            ]
+        },
+        "4":{
+            "question": "Which of the following statement is NOT true?",
+            "choices": [
+                "Random variables can only have one value.",
+                "The value of a random variable could be zero.",
+                "The probability of the value of a random variable could be zero.",
+                "A random variable represents numerical outcomes for different situations or events."
+            ]
+        },
+        "5":{
+            "question": "It is the symbols used to denote variance?",
+            "choices": [
+                "μ",
+                "σ",
+                "θ²",
+                "σ²"
+            ]
+        },
+        "6":{
+            "question": "It is a measure of the dispersion of a set of data from its mean.",
+            "choices": [
+                "Variance",
+                "Standard Deviation",
+                "Mean",
+                "None of these"
+            ]
+        },
+        "7":{
+            "question": "The given formula below is the_____",
+            "img": "123412.png",
+            "choices": [
+                "formula for mean",
+                "formula for Standard Deviation",
+                "formula for variance",
+                "formula for median"
+            ]
+        },
+        "8":{
+            "question": "The given formula below is the _______.",
+            "img": "0967567.png",
+            "choices": [
+                "formula for mean",
+                "formula for Standard Deviation",
+                "formula for variance",
+                "formula for median"
+            ]
+        },
+        "9":{
+            "question": "For a sample of size 20 taken from a normally distributed population with standard deviation equal to 5, a 90% confidence interval for the population mean would require the use of:",
+            "choices": [
+                "t = 1.328",
+                "t = 1.729",
+                "t = 2.12",
+                "z = 1.645"
+            ]
+        },
+        "10":{
+            "question": "Under which of the following circumstances is it impossible to construct a confidence interval for the population mean?",
+            "choices": [
+                "A non-normal population with a large sample and an unknown population variance",
+                "A normal population with a large sample and a known population variance",
+                "Non-normal population with a small sample and an unknown population variance",
+                "A normal population with a small sample and an unknown population variance"
+            ]
+        },
+        "11":{
+            "question": "Suppose that a one-tail t test is being applied to find out if the population mean is less than 100. The level of significance is .05 and 25 observations were sampled. The rejection region is:",
+            "choices": [
+                "t > 1.708",
+                "t < -1. 711",
+                "t > 1.318",
+                "t < -1.316"
+            ]
+        },
+        "12":{
+            "question": "Suppose we were interested in determining if there were differences in the average prices among two local supermarkets. We randomly pick six items to compare at both supermarkets. Which statistical procedure would be best to use for this study?",
+            "choices": [
+                "Matched-pairs t procedure",
+                "One-sample t test",
+                "Two-sample t test",
+                "None of the above"
+            ]
+        },
+        "13":{
+            "question": "If the population proportion is 0.90 and a sample of size 64 is taken, What is the probability that the sample proportion is less than 0.88?",
+            "choices": [
+                "0.5019",
+                "0.2981",
+                "0.6300",
+                "0.7019"
+            ]
+        },
+        "14":{
+            "question": "The z-value needed to construct 92.5% confidence interval estimate for the difference between two population proportion is",
+            "choices": [
+                "2.58",
+                "2.33",
+                "1.96",
+                "1.78"
+            ]
+        },
+        "15":{
+            "question": "Suppose that I want to calculate the 80% confidence interval for the mean value of a normally distributed population with a known variance σ = 40. Which of the following critical values should I use to perform this calculation?",
+            "choices": [
+                "±1.28",
+                "±1.645",
+                "80% critical value of the t with 39 degrees of freedom.",
+                "80% critical value of t with 40 degrees of freedom."
+            ]
+        },
+        "16":{
+            "question": "The population proportion (P) is 0.70 and the sample size is ‘large’. What is the probability that the sample proportion (p ̂) is less than 0.6?",
+            "choices": [
+                "0.5019",
+                "0.297",
+                "0.5300",
+                "0.7019"
+            ]
+        },
+        "17":{
+            "question": "Which of the following denotes the sample size?",
+            "choices": [
+                "n",
+                "s",
+                "μ",
+                "𝑋"
+            ]
+        },
+        "18":{
+            "question": "Which of the following relationship is NOT true?",
+            "choices": [
+                "As the number of sample size increases, the margin of error decreases.",
+                "As the number of sample size increases, the standard deviation increases.",
+                "As the number of sample size increases, the width of the confidence interval decreases.",
+                "As the number of sample size increases, the sample mean decreases."
+            ]
+        },
+        "19":{
+            "question": "What is the value of n if E = 5; σ = 25 and z σ/2 = 1.96?",
+            "choices": [
+                "90",
+                "93",
+                "97",
+                "100"
+            ]
+        },
+        "20":{
+            "question": "We would like to start a business and need to estimate the average possible customers in one week for our business plan and model. How many potential customers must we randomly select to be 95% sure that the sample mean is within 1 minute of the population mean μ, assume that a previous survey has shown σ = 6.95 minutes.",
+            "choices": [
+                "160",
+                "160",
+                "180",
+                "186"
+            ]
+        }
+    },
+    
+    "III":{
+        "instruct": "PROBLEM SOLVING",
+        
+        "Problem1":{
+            "Problem": "A researcher claims that the average salary of a private school teacher is greater than 40,000php with a standard deviation of 7,000php. A sample of 35 teachers has a mean salary of 42,000php. At 0.05 level of significance, test the claim of the researcher.",
+            
+            "1":{
+                "question": "State Null Hypothesis: h<sub>o</sub> : µ ___ 40000"
+            },
+            "2":{
+                "question": "Alternative Hypothesis: h<sub>a</sub> : µ ___ 40000"
+            },
+            "3":{
+                "question": "Decide on α : α = ____"
+            },
+            "4":{
+                "question": "Decide on type of test."
+            },
+            "5":{
+                "question": "Is this a 1-tailed or a 2-tailed test?"
+            },
+            "6":{
+                "question": "Calculate test. (6)_____ = (X- µ)/(S ÷ √n) = (7)_____"
+            },
+            "7":{
+                "question": "Calculate test. (6)_____ = (X- µ)/(S ÷ √n) = (7)_____"
+            },
+            "8":{
+                "question": "Declare the decision."
+            },
+            "9":{
+                "question": "Decide the conclusion: The claim of the researcher is ________."
+            },
+            "10":{
+                "question": "Decide the conclusion: The claim of the researcher is ________."
+            }
+        },
+        
+        "Problem2": {
+            "Problem": "A study shows that the average daily coffee consumption of a 25-35 years old students is 4 cups per day. A university claims that their students tend to drink less than 4 cups. They selected 18 students and found the mean of 3.5 cups with a standard deviation of 1.8 cups. Use 0.01 level of significance to test their claim.",
+            
+            "11":{
+                "question": "State Null Hypothesis: h<sub>o</sub> : µ ___ 4"
+            },
+            "12":{
+                "question": "Alternative Hypothesis: h<sub>a</sub> : µ ___ 4"
+            },
+            "13":{
+                "question": "Decide on α : α = ____"
+            },
+            "14":{
+                "question": "Decide on type of test."
+            },
+            "15":{
+                "question": "Is this a 1-tailed or a 2-tailed test?"
+            },
+            "16":{
+                "question": "Calculate test. (6)_____ = (X- µ)/(S ÷ √n) = (7)_____"
+            },
+            "17":{
+                "question": "Calculate test. (6)_____ = (X- µ)/(S ÷ √n) = (7)_____"
+            },
+            "18":{
+                "question": "Declare the decision."
+            },
+            "19":{
+                "question": "Decide the conclusion: The claim of the university is ________."
+            },
+            "20":{
+                "question": "Decide the conclusion: The claim of the university is ________."
+            }
+        }
+    },
+    
+    "Answers": {
+        "I": {
+            "1": "Continuous",
+            "2": "Continuous",
+            "3": "Discrete",
+            "4": "Continuous",
+            "5": "Discrete",
+            "6": "Mean",
+            "7": "Variance",
+            "8": "Standard Deviation",
+            "9": "t-distribution",
+            "10": "Confidence Interval"
+        },
+        "II": {
+            "1": "3",
+            "2": "Z = 0, 1, 2, 3",
+            "3": "V = 0, 1, 2, 3, 4",
+            "4": "Random variables can only have one value.",
+            "5": "σ²",
+            "6": "Standard Deviation",
+            "7": "formula for variance",
+            "8": "formula for Standard Deviation",
+            "9": "z = 1.645",
+            "10": "Non-normal population with a small sample and an unknown population variance",
+            "11": "t < -1. 711",
+            "12": "Matched-pairs t procedure",
+            "13": "0.2981",
+            "14": "1.78",
+            "15": "±1.28",
+            "16": "0.297",
+            "17": "n",
+            "18": "As the number of sample size increases, the sample mean decreases.",
+            "19": "97",
+            "20": "186"
+        },
+        "III": {
+            "1": "<=",
+            "2": ">",
+            "3": "0.05",
+            "4": "z-test",
+            "5": "one-tailed",
+            "6": "z",
+            "7": "1.58",
+            "8": "Accept the null hypothesis(ho), reject the alternative hypothesis(ha)",
+            "9": "False",
+            "10": "False",
+            "11": ">=",
+            "12": "<",
+            "13": "0.01",
+            "14": "t-test",
+            "15": "one-tailed",
+            "16": "t",
+            "17": "-1.18",
+            "18": "Accept the null hypothesis(ho), reject the alternative hypothesis(ha)",
+            "19": "False",
+            "20": "False"
+        }
+    }
+}

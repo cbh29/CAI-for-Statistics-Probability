@@ -1,0 +1,78 @@
+body{
+    background: url(../../img/bg_login.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: relative;
+
+}
+
+.content .btn-to-home{
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.login-content{
+    border: 1px solid #ffffff48;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.input-container .input-ic{
+    height: inherit;
+}
+
+.input-container input{
+    padding: 3px;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.login-content p{
+    font-size: 14px;
+    text-align: center;
+    color: #a5a5a5;
+}
+
+.login-content a{
+    text-decoration: none;
+}
+
+@media (min-width: 576px){
+
+    .login-content{
+        padding: 30px 50px;
+    }
+
+}
